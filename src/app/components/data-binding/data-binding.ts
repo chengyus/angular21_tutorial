@@ -10,4 +10,9 @@ export class DataBinding {
   courseName = 'Angular v-21 Full Course';
   cityName = "Nagpur";
   className = "primary";
+  inoutType = "date";
+
+  showWelcomeMessage() {
+    alert("Welcome to Angular 21")
+  }
 }
