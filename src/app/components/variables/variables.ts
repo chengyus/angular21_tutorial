@@ -9,10 +9,10 @@ import { email } from '@angular/forms/signals';
 })
 export class Variables {
   courseName: string = 'Angular 21';
-  currentVersion = "v.21";
+  currentVersion = 'v.21';
 
   rollNo: number = 121;
-  productPrice = 1200.50;
+  productPrice = 1200.5;
 
   isActive: boolean = false;
   isPresent = true;
@@ -26,13 +26,18 @@ export class Variables {
   studentObj = {
     name: 'Chetan',
     modbile: '9900990000',
-    email: 'chetan@gmail.com'
-  }
+    email: 'chetan@gmail.com',
+  };
 
   studentList = [
-    { name: 'ABC', city: 'Pune'},
-    { name: 'MNQ', city: 'Mumbai'},
-    { name: 'QWE', city: 'Jaipur'}
-  ]
+    { name: 'ABC', city: 'Pune' },
+    { name: 'MNQ', city: 'Mumbai' },
+    { name: 'QWE', city: 'Jaipur' },
+  ];
 
+  constructor() {
+    this.courseName = '2233';
+
+    this.rollNo = 234;
+  }
 }

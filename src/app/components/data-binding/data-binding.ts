@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './data-binding.css',
 })
 export class DataBinding {
-
+  courseName: string = 'Angular v-21 Full Course';
 }
