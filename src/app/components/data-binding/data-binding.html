@@ -26,6 +26,14 @@
       <td>
         <button (click)="showWelcomeMessage()">Show Message</button>
       </td>
+      <td>
+        <select (change)="onStateChanged()">
+          <option>Pune</option>
+          <option>Mumbai</option>
+          <option>Nagpur</option>
+          <option>Jaipur</option>
+        </select>
+      </td>
     </tr>
   </tbody>
 </table>

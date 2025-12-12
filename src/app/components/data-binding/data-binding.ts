@@ -15,4 +15,8 @@ export class DataBinding {
   showWelcomeMessage() {
     alert("Welcome to Angular 21")
   }
+
+  onStateChanged() {
+    alert("State Changed")
+  }
 }
