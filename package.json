@@ -2,11 +2,11 @@
   "name": "angular21-tutorial",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "ng": "civetman build --noGit --noVscode && ng",
+    "start": "civetman dev --noGit --noVscode & ng serve",
+    "build": "civetman build --noGit --noVscode && ng build",
+    "watch": "civetman dev --noGit --noVscode & ng build --watch --configuration development",
+    "test": "civetman build --noGit --noVscode && ng test"
   },
   "prettier": {
     "printWidth": 100,
@@ -21,7 +21,6 @@
     ]
   },
   "private": true,
-  "packageManager": "npm@11.6.2",
   "dependencies": {
     "@angular/common": "^21.0.0",
     "@angular/compiler": "^21.0.0",
@@ -36,6 +35,8 @@
     "@angular/build": "^21.0.2",
     "@angular/cli": "^21.0.2",
     "@angular/compiler-cli": "^21.0.0",
+    "@danielx/civet": "^0.11.1",
+    "civetman": "^0.0.4",
     "jsdom": "^27.1.0",
     "typescript": "~5.9.2",
     "vitest": "^4.0.8"
