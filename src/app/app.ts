@@ -5,7 +5,7 @@ import { DataBinding } from './components/data-binding/data-binding';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, DataBinding],
+  imports: [RouterOutlet],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
